@@ -1,0 +1,35 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "This is Real time chat app using scocket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "NPM",
+    "socket.io",
+    "express"
+  ],
+  "author": "varun sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  },
+  "config": {
+    "server": {
+      "port": 8080
+    },
+    "db": {
+      "url": "mongodb://localhost:27017/chatdb"
+    }
+  }
+}
