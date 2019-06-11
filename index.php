@@ -1,1 +1,1 @@
-<?php readfile("bootnav.html"); ?>
+<?php readfile("server.js"); ?>
