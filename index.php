@@ -1,1 +1,1 @@
-<?php readfile("server.js"); ?>
+<?php readfile("index.html"); ?>
